@@ -1,4 +1,4 @@
-#Deployment manifest to create the MariaDB app
+#Deployment manifest to create the MariaDB pod
 apiVersion: apps/v1
 kind: Deployment
 
@@ -63,7 +63,7 @@ spec:
       targetPort: 3306
 
 ---
-#Manifest for deploying the WordPress app
+#Manifest for deploying the WordPress pod
 apiVersion: apps/v1
 
 kind: Deployment
@@ -124,7 +124,7 @@ spec:
           - containerPort: 8080
 
 ---
-#manifest to create the wrordpress service
+#manifest to create the wordpress service
 apiVersion: v1
 
 kind: Service
