@@ -1,0 +1,4 @@
+#ecret and config files containing credentials
+secret.yaml
+config*.yaml
+/secret
