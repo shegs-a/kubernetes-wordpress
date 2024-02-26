@@ -1,4 +1,8 @@
-#ecret and config files containing credentials
+#secret and config files containing credentials
 secret.yaml
 config*.yaml
 /secret
+
+#other files to be ignored
+webpage-screenshot.png
+wordpress-logs.txt
